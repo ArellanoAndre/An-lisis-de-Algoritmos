@@ -1,6 +1,6 @@
 package PruebasRun;
 
-import static Ordenamiento.SelectionSort.selection;
+import static Ordenamiento.QuickSorter.quickSort;
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -24,7 +24,8 @@ public class Main {
 //        ImprimirArreglo("despues de acomodo",arreglo); 
 //        insertionSort(arreglo);
           ImprimirArreglo("antes de acomodo",arreglo); 
-          selection(arreglo);
+  //        selection(arreglo);
+  arreglo = quickSort(arreglo,0,arreglo.length -1);
           ImprimirArreglo("despues de acomodo",arreglo); 
 
 //        
