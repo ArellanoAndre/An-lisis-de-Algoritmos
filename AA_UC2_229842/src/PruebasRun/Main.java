@@ -1,6 +1,6 @@
 package PruebasRun;
 
-import static Ordenamiento.InsertionSort.insertionSort;
+import static Ordenamiento.SelectionSort.selection;
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -22,9 +22,9 @@ public class Main {
 //        ImprimirArreglo("antes de acomodo",arreglo); 
 //        bubbleSort(arreglo); // Llamada al método de ordenamiento
 //        ImprimirArreglo("despues de acomodo",arreglo); 
-    
+//        insertionSort(arreglo);
           ImprimirArreglo("antes de acomodo",arreglo); 
-          insertionSort(arreglo);
+          selection(arreglo);
           ImprimirArreglo("despues de acomodo",arreglo); 
 
 //        
